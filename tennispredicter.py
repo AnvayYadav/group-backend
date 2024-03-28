@@ -1,6 +1,6 @@
 import csv
 
-with open("jobs.csv", mode = "w") as csvfile:
+with open("players.csv", mode = "w") as csvfile:
     fieldnames = ["_title", "_field", "_qualification",  "_pay"]
     writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
     writer.writeheader()
